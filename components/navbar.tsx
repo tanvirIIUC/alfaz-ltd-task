@@ -50,7 +50,7 @@ export const Navbar = () => {
         </div>
 
       </div>
-      <div className="my-2 flex justify-between container mx-auto max-w-[1350px] lg:px-[61px] ">
+      <div className="my-2 bg-[#ffff] flex justify-between container mx-auto max-w-[1350px] lg:px-[61px] ">
         <div className=" flex items-center gap-5">
           <p className="h-[37px] w-[125px]">
 
