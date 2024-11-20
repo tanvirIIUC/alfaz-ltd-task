@@ -1,8 +1,8 @@
 "use client"
-import { useEffect, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import CategoryDropdown, { Category} from "./CategoryDropdown";
 
-const CategoryPage: React.FC = () => {
+const CategoryPage:FC = () => {
     const [categories, setCategories] = useState<Category[]>([]);
 
     const fetchCategories = async (): Promise<Category[]> => {
