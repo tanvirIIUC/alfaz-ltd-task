@@ -50,7 +50,7 @@ export const Navbar = () => {
        </div>
        
       </div>
-
+      <div className=" bg-[#ffff]">
       <NextUINavbar maxWidth="xl" position="sticky">
         <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
           <NavbarBrand as="li" className="gap-3 max-w-fit">
@@ -118,6 +118,9 @@ export const Navbar = () => {
           </div>
         </NavbarMenu>
       </NextUINavbar>
+      </div>
+
+      
     </div>
 
   );

@@ -21,7 +21,7 @@ const HeroSection: FC = () => {
 
   return (
     <div>
-      <div className="relative w-full" data-carousel="slide">
+      <div className="relative w-full bg-[#ffff]" data-carousel="slide">
 
         <div className="relative overflow-hidden rounded-lg md:h-96">
           {images.map((src, index) => (
@@ -54,7 +54,7 @@ const HeroSection: FC = () => {
           ))}
         </div>
       </div>
-      <div className="mt-[-390px] container mx-auto max-w-[1350px]">
+      <div className="mt-[-390px] container mx-auto max-w-[1350px] bg-[#ffff]">
         <CategoryPage />
       </div>
     </div>
