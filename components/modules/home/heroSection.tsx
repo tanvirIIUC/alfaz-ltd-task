@@ -54,7 +54,7 @@ const HeroSection: FC = () => {
           ))}
         </div>
       </div>
-      <div className="mt-[-390px] container mx-auto max-w-[1350px] bg-[#ffff]">
+      <div className="mt-[-384px] container mx-auto max-w-[1350px] bg-[#ffff]">
         <CategoryPage />
       </div>
     </div>
